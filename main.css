@@ -1,7 +1,6 @@
-.body{
-    min-height: 100vh;
+.dna   {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    min-height: fit-content;
 }
- .footer{
-    position: sticky;
-    top: 100%;
- }
