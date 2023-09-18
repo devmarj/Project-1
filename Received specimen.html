@@ -1,88 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Project</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-danger">
-        <div class="container-fluid">
-          <a class="navbar-brand fw-bold" href="#">LIS</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active fw-bold" aria-current="page" href="#">Patient's List</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fw-bold" href="#">Received Specimen</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fw-bold" href="#">List of Batch</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fw-bold" href="#">Encode Specimen</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fw-bold" href="#">Approval</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fw-bold" href="#">Approved Specimen</a>
-              </li> 
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <h1>LISTS</h1>
-      <table class="table">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">Name</th>
-            <th scope="col">Birthdate</th>
-            <th scope="col">Purpose</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>John Doe </td>
-            <td>01/01/01</td>
-            <td>Employment</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>John Doe II</td>
-            <td>01/01/01</td>
-            <td>For Travel</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td >John Doe III</td>
-            <td>01/01/01</td>
-            <td>For Admission</td>
-          </tr>
-        </tbody>
-      </table>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-    <div class="text-center bg-light border border-4 sticky-lg-bottom sticky-lg-bottom ">
-        <p>&#169; <strong> 2023 DevMarj-All Rights Reserved.</strong></p>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand fw-bold" href="#">MATS</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active fw-bold" aria-current="page" href="#">Patient's List</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#">Received Specimen</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#">List of Batch</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#">Encode Specimen</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#">Approval</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#">Approved Specimen</a>
+                  </li> 
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <br>
+          <H3>Patient's list</H3>
+          <br>
+          <table class="table aligh">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Birthdate</th>
+                <th scope="col">Purpose</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>John Doe </td>
+                <td>01/01/01</td>
+                <td>Employment</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>John Doe II</td>
+                <td>01/01/01</td>
+                <td>For Travel</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td >John Doe III</td>
+                <td>01/01/01</td>
+                <td>For Admission</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td >John Doe IV</td>
+                <td>01/01/01</td>
+                <td>For Admission</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td >John Doe V</td>
+                <td>01/01/01</td>
+                <td>For Admission</td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td >John Doe VI</td>
+                <td>01/01/01</td>
+                <td>For Admission</td>
+              </tr>
+              <tr>
+                <th scope="row">7</th>
+                <td >John Doe VII</td>
+                <td>01/01/01</td>
+                <td>For Admission</td>
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td >John Doe VIII</td>
+                <td>01/01/01</td>
+                <td>For Admission</td>
+              </tr>
+              <tr>
+                <th scope="row">9</th>
+                <td >John Doe IX</td>
+                <td>01/01/01</td>
+                <td>For Admission</td>
+              </tr>
+              <tr>
+                <th scope="row">10</th>
+                <td >John Doe X</td>
+                <td>01/01/01</td>
+                <td>For Admission</td>
+              </tr>
+              <tr>
+                <th scope="row">11</th>
+                <td >John Doe XI</td>
+                <td>01/01/01</td>
+                <td>For Admission</td>
+              </tr>
+            </tbody>
+          </table>
+          
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <footer>
+      <div class="text-center bg-light border border-1 d-none d-sm-block">
+        <p>&#169;  2023 DevMarj-All Rights Reserved.</p>
       </div>
   </body>
-  <footer>
 </html>

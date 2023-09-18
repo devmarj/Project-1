@@ -1,6 +1,3 @@
-.dna   {
-    display: flex;
-    justify-content: center;
-    width: auto;
-    min-height: fit-content;
-}
+.body {
+    background-image: url("/img/DNA.webp");
+  }
