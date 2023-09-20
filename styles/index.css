@@ -1,0 +1,23 @@
+.center{
+    border:1px solid;
+    border-radius: 10%;
+    position: absolute;
+    top: 30%;
+    left: 300px;
+    transform: translate(100%, -10%);
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    margin: auto;
+
+
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+} 
